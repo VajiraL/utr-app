@@ -11,7 +11,6 @@ import numpy as np
 import rasterio as rio
 from matplotlib import pyplot as plt
 import os
-os.chdir('C:/Users/User/Documents/code/UTR_code/streamlitapp')
 
 st.title('Sanitation Scenario Explorer')
 

@@ -10,7 +10,6 @@ import pandas as pd
 import numpy as np
 import rasterio as rio
 from matplotlib import pyplot as plt
-import os
 
 st.title('Sanitation Scenario Explorer')
 

@@ -88,6 +88,7 @@ hist = np.histogram(optim[0], bins=[1,2,3,4,4.5])
 st.bar_chart(hist[0])
 
 #median filter
+st.markdown('### Smoothed Map')
 from scipy import ndimage, misc
 filt = ndimage.median_filter(optim, size=12)
 fig2, ax2 = plt.subplots(figsize=(12,12))

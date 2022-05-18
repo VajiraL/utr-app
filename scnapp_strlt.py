@@ -102,7 +102,7 @@ st.sidebar.text('')
 st.sidebar.text('')
 st.sidebar.markdown("**About**")
 st.sidebar.text('')
-st.sidebar.markdown('This software is a visual explorer of the results of a sanitation planning study that developed data-driven and spatial analytic methods for optimizing a sanitation portfolio consisting of both centralized and decentralized technologies')
+st.sidebar.markdown('This software is a visual explorer of the results of a sanitation planning study that developed data-driven and spatial analytic methods for optimizing a sanitation portfolio consisting of both centralized and decentralized technologies. Area of interest is [Gampaha District, Sri Lanka](https://www.openstreetmap.org/#map=18/7.07938/79.88983)')
 st.sidebar.text('')
 st.sidebar.markdown('**Sanitation Alternatives** <br />1. Centralized Sewerage <br /> 2. Simplified Sewerage <br /> 3. On-site Sanitation with Faecal Sludge Treatment <br /> 4. Improved On-site Sanitation ', unsafe_allow_html=True)
 

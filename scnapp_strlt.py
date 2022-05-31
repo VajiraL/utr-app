@@ -97,7 +97,7 @@ st.pyplot(fig_hist)
 
 #median filter
 st.markdown('### Smoothed Map')
-st.markdown('Original outputs are grainy. ')
+st.markdown('Original outputs are grainy. Denoising by applying a median filter produces a result easier to interpret.')
 from scipy import ndimage, misc
 filt = ndimage.median_filter(optim, size=12)
 fig2, ax2 = plt.subplots(figsize=(12,12))

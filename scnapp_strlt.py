@@ -106,6 +106,8 @@ fig2, ax2 = plt.subplots(figsize=(12,12))
 ax2.imshow(filt[0], cmap=cmap, interpolation='nearest')
 ax2.set_title("Optimum distribution of sanitation slternatives with 12x12 median filter")
 ax2.legend(handles=patches)
+ax2.set_xticks([])
+ax2.set_yticks([])
 st.pyplot(fig2)
 
 # Sidebar explainer of the app

@@ -80,6 +80,8 @@ optim = np.where((mask==0), 5,optim)
 fig, ax = plt.subplots(figsize=(12,12))
 ax.imshow(optim[0], cmap=cmap, interpolation='nearest')
 ax.set_title("Optimum Spatial Distribution of Sanitation Alternatives")
+ax.set_xticks([])
+ax.set_yticks([])
 ax.legend(handles=patches)
 st.pyplot(fig)
 

@@ -120,7 +120,7 @@ st.sidebar.text('')
 st.sidebar.markdown('**Sanitation Alternatives** <br />1. Centralized Sewerage <br /> 2. Simplified Sewerage <br /> 3. On-site Sanitation with Faecal Sludge Treatment <br /> 4. Improved On-site Sanitation ', unsafe_allow_html=True)
 
 st.sidebar.markdown("**Sanitation system evaluation**")
-st.sidebar.markdown('Sanitation systems are evaluted based on the ***Economic***, ***Environmental*** and ***Social*** appropriateness of the alternatives estimated based on the methodology described [here](https://github.com/VajiraL/utr-app/blob/be5798a61027887de82e5da8814d33e683c5fb40/methodology.md).')
+st.sidebar.markdown('Sanitation systems are evaluted based on the ***Economic***, ***Environmental*** and ***Social*** appropriateness of the alternatives estimated based on the methodology described [here](https://github.com/VajiraL/utr-app/blob/main/methodology.md).')
 
 st.sidebar.markdown("**How to use:**")
 st.sidebar.markdown('The sliders control the weightages given for the three components of the score. Adjust the sliders to generate optimized sanitation plans for different scenarios.')
